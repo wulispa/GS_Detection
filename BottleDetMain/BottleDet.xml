@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BottleDetBase>
+  <SystemParam>
+    <ThrowModel>NORMAL</ThrowModel>
+    <ShowModel>SUSTAIN</ShowModel>
+    <SaveModel>AUTO</SaveModel>
+    <ImageType>jpg</ImageType>
+    <AutoLock>FALSE</AutoLock>
+    <AutoLockTime>10</AutoLockTime>
+    <BanSelect>THREE</BanSelect>
+    <BanNumber>SEC</BanNumber>
+  </SystemParam>
+  <OutPutParam>待定</OutPutParam>
+  <BottleClassParam>Bottle22||asfes||</BottleClassParam>
+  <BottleSelect>Bottle22</BottleSelect>
+  <ProjectParam>
+    <Bottle22>
+      <AlgorithmParam>
+        <PersonUse>管理员</PersonUse>
+        <PhotoelectricDistance>2100</PhotoelectricDistance>
+        <TriggerDistance>4000</TriggerDistance>
+        <ProductData>TR240520</ProductData>
+        <ModelPath></ModelPath>
+        <ProfilePath></ProfilePath>
+        <DetThread>100.00</DetThread>
+        <ThreadModel>AREA</ThreadModel>
+        <DetThreadLW></DetThreadLW>
+        <GrayValue>100</GrayValue>
+        <GrayThresh>FALSE</GrayThresh>
+        <ConfidenceVal1>0.5</ConfidenceVal1>
+        <ConfidenceVal2>0.5</ConfidenceVal2>
+        <NMSThreshVal>0.5</NMSThreshVal>
+        <ShowRegion>FALSE</ShowRegion>
+        <ChoseModel>NONE&amp;TRA</ChoseModel>
+        <outer_radius>350</outer_radius>
+        <inner_radius>270</inner_radius>
+        <dyn_threshold_val>10</dyn_threshold_val>
+        <area_threshold_val>150</area_threshold_val>
+        <Contrast_val></Contrast_val>
+        <Area_val></Area_val>
+        <Gray_val></Gray_val>
+        <MoldRecognition>MOLDON</MoldRecognition>
+        <SelectedMold>1,2,3,4,5,6,7,8,9,10,11,20,21,30,31,40,41,50,51,60,61,70,71,80,81,82,83,84,85,86,87,88,89,90</SelectedMold>
+        <MoldModelPath>D:\BottleDet\BottleDet1003\import_file1219_2\import_file1219_2\Profile.txt</MoldModelPath>
+        <MoldProfilePath>D:\BottleDet\BottleDet1003\import_file1219_2\import_file1219_2\import_model_cfg.txt</MoldProfilePath>
+      </AlgorithmParam>
+      <CameraParam>
+        <ExposeTime>150</ExposeTime>
+        <GainValue>2.00</GainValue>
+        <AutoSaveImage>TRUE</AutoSaveImage>
+        <GrabNum>1</GrabNum>
+        <Trigger>ON</Trigger>
+        <CameraOut>FALSE</CameraOut>
+        <ExposeTime1>200</ExposeTime1>
+        <GainValue1>2.00</GainValue1>
+        <AutoSaveImage1>TRUE</AutoSaveImage1>
+        <Trigger1>OFF</Trigger1>
+        <CameraOut1>FALSE</CameraOut1>
+      </CameraParam>
+    </Bottle22>
+<asfes>
+<AlgorithmParam>
+<ModelPath>D:/import_file_5_0320/import_file/Profile.txt</ModelPath>
+<ProfilePath>D:/import_file_5_0320/import_file/import_model_cfg.txt</ProfilePath>
+<DetThread>100</DetThread>
+<ThreadModel>NO</ThreadModel>
+<DetThreadLW>1</DetThreadLW>
+<GrayValue>100</GrayValue>
+<GrayThresh>TRUE</GrayThresh>
+<ConfidenceVal1>0.5</ConfidenceVal1>
+<ConfidenceVal2>0.5</ConfidenceVal2>
+<NMSThreshVal>0.5</NMSThreshVal>
+<ChoseModel>AI</ChoseModel>
+<outer_radius>350</outer_radius>
+<inner_radius>270</inner_radius>
+<dyn_threshold_val>10</dyn_threshold_val>
+<area_threshold_val>150</area_threshold_val>
+<Contrast_val>10,20,30,40</Contrast_val>
+<Area_val>400,200,130,140</Area_val>
+<Gray_val>50,60,70,80</Gray_val>
+<MoldRecognition>MOLDON</MoldRecognition>
+<SelectedMold>1</SelectedMold>
+<MoldModelPath>/001/0.pth</MoldModelPath>
+<MoldProfilePath>/001/0.txt</MoldProfilePath>
+</AlgorithmParam>
+<CameraParam>
+<ExposeTime>120</ExposeTime>
+<GainValue>2.00</GainValue>
+<AutoSaveImage>TRUE</AutoSaveImage>
+<GrabNum>5</GrabNum>
+<Trigger>OFF</Trigger>
+<CameraOut>TRUE</CameraOut>
+</CameraParam>
+</asfes>
+</ProjectParam>
+</BottleDetBase>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+    <User Name="管理员" Password="123"/>
+    <User Name="操作员" Password="123"/>
+
+</Users>
+
+<Codes>
+    <Code PermissionCode="123123"/>
+</Codes>

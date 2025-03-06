@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\ChartCtrlCPP">
+      <UniqueIdentifier>{a5bf6105-f2fe-42e8-9d13-33cb522b28c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="源文件\头文件\ChartCtrlH">
+      <UniqueIdentifier>{b13fdbf3-3083-458b-ac9b-2f2756a93860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\头文件\utils">
+      <UniqueIdentifier>{3e2d2ea2-4f80-4e53-bc95-c1b85a6b40c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BottleDetMain.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BottleDetMainDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BCMenu.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BtnST.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenRect.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OpencvWin.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CvvImage.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="publicspace.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemParamDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckParamDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangeClassDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraParamDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Detection.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmBase.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myLogger.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyThreadPool.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyXml.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutPutEIO.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HiKCamera.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PLT.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlCrypto.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlModel.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StatShowDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartAxis.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartAxisLabel.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartBalloonLabel.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartBarSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCandlestickSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCrossHairCursor.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCursor.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartDateTimeAxis.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartDragLineCursor.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartFont.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartGanttSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartGradient.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartGrid.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartLabel.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartLegend.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartLineSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartLogarithmicAxis.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartMouseListener.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartPointsArray.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartPointsSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartScrollBar.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartSerieBase.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartSeriesMouseListener.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartStandardAxis.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartString.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartSurfaceSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartTitle.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartXYSerie.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="PointsOrdering.h">
+      <Filter>源文件\头文件\ChartCtrlH</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangePassWordDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StateDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStatisticXml.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawBing.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="putTextZh.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmIdentify.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoldSelectDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HalconWin.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnDB.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TAlgo.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FatherSingle.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BadData.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PassCheck.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="putText.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraHK1.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MoldParaDlg.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\kernel_function.h">
+      <Filter>源文件\头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraBasler.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>源文件\头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="DateInfo.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLInterface.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>源文件\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BottleDetMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BottleDetMainDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BCMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BtnST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenRect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OpencvWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangeClassDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraParamDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Detection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="myLogger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThreadPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutPutEIO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HiKCamera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StatShowDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePassWordDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartAxis.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartAxisLabel.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartBarSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCandlestickSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCrossHairCursor.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCursor.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartDateTimeAxis.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartDragLineCursor.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartFont.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartGanttSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartGradient.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartGrid.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartLegend.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartLineSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartLogarithmicAxis.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartPointsSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartScrollBar.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartStandardAxis.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartSurfaceSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartTitle.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartXYSerie.cpp">
+      <Filter>源文件\ChartCtrlCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="StateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStatisticXml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawBing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="putTextZh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlgorithmIdentify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoldSelectDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HalconWin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnDB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FatherSingle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BadData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="putText.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraHK1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MoldParaDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraBasler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\logger.cpp">
+      <Filter>源文件\头文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DateInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BottleDetMain.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BottleDetMain.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BottleDetMain.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\检测参数off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\检测参数on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\解锁off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\解锁on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\清零off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\清零on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\锁屏off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\锁屏on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\停止检测off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\停止检测on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\退出off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\退出on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\系统参数off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\系统参数on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\相机参数off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\相机参数on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\自动检测off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\自动检测on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\品种切换off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\品种切换on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\数据统计off.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\数据统计on.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="PLT.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="dlcrydll.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="halcon.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+    <Library Include="halconcpp.lib">
+      <Filter>资源文件</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="utils\kernel_function.cu">
+      <Filter>源文件\头文件\utils</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

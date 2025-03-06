@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A4148A11-B9E5-4461-B347-490FD260B24A}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>BottleDetMain</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)BottleDetMain\FromBaslerCam\includes;$(SolutionDir)BottleDetMain\FromBaslerCam\includes\genapi;$(SolutionDir)BottleDetMain\FromBaslerCam\includes\pylon\gige;$(SolutionDir)BottleDetMain\OpenSSL\include;$(SolutionDir)BottleDetMain\include\SQL;$(SolutionDir)BottleDetMain\FromHKCam\includes;$(SolutionDir)cv\include\opencv2;$(SolutionDir)cv\include;$(SolutionDir)BottleDetMain\include\FreeImage;C:\Program Files\MySQL\MySQL Server 8.0\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)BottleDetMain\lib;$(SolutionDir)BottleDetMain\OpenSSL\lib;$(SolutionDir)BottleDetMain\FromHKCam\lib\win64;$(SolutionDir)BottleDetMain\FromBaslerCam\lib\x64;$(SolutionDir)cv\win64\vc15\lib;G:\Opencv\opencv\build\x64\vc15\lib;$(SolutionDir)BottleDetMain\lib\halcon\lib\x64-win64;$(HALCONROOT)\lib\x64-win64;C:\Program Files\MySQL\MySQL Server 8.0\lib;$(SolutionDir)BottleDetMain\include\SQL;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>D:\BottleDet\cv\include;D:\BottleDet\cv\include\opencv;D:\BottleDet\cv\include\opencv2;D:\BottleDet\BottleDetMain\FromHKCam\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\BottleDet\cv\lib;D:\BottleDet\BottleDetMain\FromHKCam\lib\win64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)cv\include;$(SolutionDir)cv\include\opencv2;$(SolutionDir)BottleDetMain\include\halcon;$(SolutionDir)BottleDetMain\include\halcon\halconcpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>opencv_world340.lib;opencv_world340d.lib;MvCameraControl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>G:\Opencv\opencv\build\x64\vc15\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>FreeImage.lib;uafxcwd.lib;LIBCMTD.lib;libssl.lib;libmysql.lib;opencv_world340.lib;opencv_world340d.lib;PLT.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies);shlwapi.lib;MvCameraControl.lib;halcon.lib;halconcpp.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Software\opencv\opencv\build\x64\vc15\lib;D:\BottleDet\BottleDetMain\FromHKCam\lib\win64</AdditionalLibraryDirectories>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>D:\BottleDet\cv\include\opencv;D:\BottleDet\cv\include\opencv2;D:\BottleDet\BottleDetMain\FromHKCam\includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>D:\BottleDet\cv\lib;D:\BottleDet\BottleDetMain\FromHKCam\lib\win64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world340.lib;MvCameraControl.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AlgorithmBase.h" />
+    <ClInclude Include="AlgorithmIdentify.h" />
+    <ClInclude Include="BadData.h" />
+    <ClInclude Include="BCMenu.h" />
+    <ClInclude Include="BeginDlg.h" />
+    <ClInclude Include="BottleDetMain.h" />
+    <ClInclude Include="BottleDetMainDlg.h" />
+    <ClInclude Include="BtnST.h" />
+    <ClInclude Include="CameraBasler.h" />
+    <ClInclude Include="CameraHK1.h" />
+    <ClInclude Include="CameraParamDlg.h" />
+    <ClInclude Include="ChangeClassDlg.h" />
+    <ClInclude Include="ChangePassWordDlg.h" />
+    <ClInclude Include="ChartAxis.h" />
+    <ClInclude Include="ChartAxisLabel.h" />
+    <ClInclude Include="ChartBalloonLabel.h" />
+    <ClInclude Include="ChartBarSerie.h" />
+    <ClInclude Include="ChartCandlestickSerie.h" />
+    <ClInclude Include="ChartCrossHairCursor.h" />
+    <ClInclude Include="ChartCtrl.h" />
+    <ClInclude Include="ChartCursor.h" />
+    <ClInclude Include="ChartDateTimeAxis.h" />
+    <ClInclude Include="ChartDragLineCursor.h" />
+    <ClInclude Include="ChartFont.h" />
+    <ClInclude Include="ChartGanttSerie.h" />
+    <ClInclude Include="ChartGradient.h" />
+    <ClInclude Include="ChartGrid.h" />
+    <ClInclude Include="ChartLabel.h" />
+    <ClInclude Include="ChartLegend.h" />
+    <ClInclude Include="ChartLineSerie.h" />
+    <ClInclude Include="ChartLogarithmicAxis.h" />
+    <ClInclude Include="ChartMouseListener.h" />
+    <ClInclude Include="ChartPointsArray.h" />
+    <ClInclude Include="ChartPointsSerie.h" />
+    <ClInclude Include="ChartScrollBar.h" />
+    <ClInclude Include="ChartSerie.h" />
+    <ClInclude Include="ChartSerieBase.h" />
+    <ClInclude Include="ChartSeriesMouseListener.h" />
+    <ClInclude Include="ChartStandardAxis.h" />
+    <ClInclude Include="ChartString.h" />
+    <ClInclude Include="ChartSurfaceSerie.h" />
+    <ClInclude Include="ChartTitle.h" />
+    <ClInclude Include="ChartXYSerie.h" />
+    <ClInclude Include="CheckParamDlg.h" />
+    <ClInclude Include="ConnDB.h" />
+    <ClInclude Include="CvvImage.h" />
+    <ClInclude Include="DataManager.h" />
+    <ClInclude Include="DataStatisticXml.h" />
+    <ClInclude Include="DateInfo.h" />
+    <ClInclude Include="Detection.h" />
+    <ClInclude Include="DlCrypto.h" />
+    <ClInclude Include="DlModel.h" />
+    <ClInclude Include="DrawBing.h" />
+    <ClInclude Include="FatherSingle.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="HalconWin.h" />
+    <ClInclude Include="HiKCamera.h" />
+    <ClInclude Include="myLogger.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="MoldParaDlg.h" />
+    <ClInclude Include="MoldSelectDlg.h" />
+    <ClInclude Include="MyThreadPool.h" />
+    <ClInclude Include="MyXml.h" />
+    <ClInclude Include="OpencvWin.h" />
+    <ClInclude Include="OutPutEIO.h" />
+    <ClInclude Include="PassCheck.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PLT.h" />
+    <ClInclude Include="PointsOrdering.h" />
+    <ClInclude Include="publicspace.h" />
+    <ClInclude Include="putText.h" />
+    <ClInclude Include="putTextZh.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ScreenRect.h" />
+    <ClInclude Include="SQLInterface.h" />
+    <ClInclude Include="StateDlg.h" />
+    <ClInclude Include="StatShowDlg.h" />
+    <ClInclude Include="SystemParamDlg.h" />
+    <ClInclude Include="TAlgo.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="utils\kernel_function.h" />
+    <ClInclude Include="utils\utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgorithmBase.cpp" />
+    <ClCompile Include="AlgorithmIdentify.cpp" />
+    <ClCompile Include="BadData.cpp" />
+    <ClCompile Include="BCMenu.cpp" />
+    <ClCompile Include="BeginDlg.cpp" />
+    <ClCompile Include="BottleDetMain.cpp" />
+    <ClCompile Include="BottleDetMainDlg.cpp" />
+    <ClCompile Include="BtnST.cpp" />
+    <ClCompile Include="CameraBasler.cpp" />
+    <ClCompile Include="CameraHK1.cpp" />
+    <ClCompile Include="CameraParamDlg.cpp" />
+    <ClCompile Include="ChangeClassDlg.cpp" />
+    <ClCompile Include="ChangePassWordDlg.cpp" />
+    <ClCompile Include="ChartAxis.cpp" />
+    <ClCompile Include="ChartAxisLabel.cpp" />
+    <ClCompile Include="ChartBarSerie.cpp" />
+    <ClCompile Include="ChartCandlestickSerie.cpp" />
+    <ClCompile Include="ChartCrossHairCursor.cpp" />
+    <ClCompile Include="ChartCtrl.cpp" />
+    <ClCompile Include="ChartCursor.cpp" />
+    <ClCompile Include="ChartDateTimeAxis.cpp" />
+    <ClCompile Include="ChartDragLineCursor.cpp" />
+    <ClCompile Include="ChartFont.cpp" />
+    <ClCompile Include="ChartGanttSerie.cpp" />
+    <ClCompile Include="ChartGradient.cpp" />
+    <ClCompile Include="ChartGrid.cpp" />
+    <ClCompile Include="ChartLegend.cpp" />
+    <ClCompile Include="ChartLineSerie.cpp" />
+    <ClCompile Include="ChartLogarithmicAxis.cpp" />
+    <ClCompile Include="ChartPointsSerie.cpp" />
+    <ClCompile Include="ChartScrollBar.cpp" />
+    <ClCompile Include="ChartSerie.cpp" />
+    <ClCompile Include="ChartStandardAxis.cpp" />
+    <ClCompile Include="ChartSurfaceSerie.cpp" />
+    <ClCompile Include="ChartTitle.cpp" />
+    <ClCompile Include="ChartXYSerie.cpp" />
+    <ClCompile Include="CheckParamDlg.cpp" />
+    <ClCompile Include="ConnDB.cpp" />
+    <ClCompile Include="CvvImage.cpp" />
+    <ClCompile Include="DataManager.cpp" />
+    <ClCompile Include="DataStatisticXml.cpp" />
+    <ClCompile Include="DateInfo.cpp" />
+    <ClCompile Include="Detection.cpp" />
+    <ClCompile Include="DlModel.cpp" />
+    <ClCompile Include="DrawBing.cpp" />
+    <ClCompile Include="FatherSingle.cpp" />
+    <ClCompile Include="HalconWin.cpp" />
+    <ClCompile Include="HiKCamera.cpp" />
+    <ClCompile Include="myLogger.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="MoldParaDlg.cpp" />
+    <ClCompile Include="MoldSelectDlg.cpp" />
+    <ClCompile Include="MyThreadPool.cpp" />
+    <ClCompile Include="MyXml.cpp" />
+    <ClCompile Include="OpencvWin.cpp" />
+    <ClCompile Include="OutPutEIO.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="putText.cpp" />
+    <ClCompile Include="putTextZh.cpp" />
+    <ClCompile Include="ScreenRect.cpp" />
+    <ClCompile Include="SQLInterface.cpp" />
+    <ClCompile Include="StateDlg.cpp" />
+    <ClCompile Include="StatShowDlg.cpp" />
+    <ClCompile Include="SystemParamDlg.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="utils\logger.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BottleDetMain.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BottleDetMain.rc2" />
+    <CudaCompile Include="utils\kernel_function.cu">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <FileType>Document</FileType>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BottleDetMain.ico" />
+    <Image Include="res\停止检测off.bmp" />
+    <Image Include="res\停止检测on.bmp" />
+    <Image Include="res\品种切换off.bmp" />
+    <Image Include="res\品种切换on.bmp" />
+    <Image Include="res\数据统计off.bmp" />
+    <Image Include="res\数据统计on.bmp" />
+    <Image Include="res\检测参数off.bmp" />
+    <Image Include="res\检测参数on.bmp" />
+    <Image Include="res\清零off.bmp" />
+    <Image Include="res\清零on.bmp" />
+    <Image Include="res\相机参数off.bmp" />
+    <Image Include="res\相机参数on.bmp" />
+    <Image Include="res\系统参数off.bmp" />
+    <Image Include="res\系统参数on.bmp" />
+    <Image Include="res\自动检测off.bmp" />
+    <Image Include="res\自动检测on.bmp" />
+    <Image Include="res\解锁off.bmp" />
+    <Image Include="res\解锁on.bmp" />
+    <Image Include="res\退出off.bmp" />
+    <Image Include="res\退出on.bmp" />
+    <Image Include="res\锁屏off.bmp" />
+    <Image Include="res\锁屏on.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dlcrydll.lib" />
+    <Library Include="halcon.lib" />
+    <Library Include="halconcpp.lib" />
+    <Library Include="PLT.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

@@ -1,0 +1,316 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DMCd1.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DMCd1.ico"
+IDI_ICON_GREEN          ICON                    "res\\icon1.ico"
+IDI_ICON_RED            ICON                    "res\\ico00001.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DMCd1_DIALOG DIALOGEX 0, 0, 517, 189
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "IO"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "通用输入口（0-15）",IDC_STATIC,9,9,249,81
+    LTEXT           "0",IDC_STATIC,28,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN0,19,28,21,21
+    LTEXT           "2",IDC_STATIC,84,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN2,73,28,21,21
+    LTEXT           "3",IDC_STATIC,110,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN3,100,28,21,21
+    LTEXT           "1",IDC_STATIC,56,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN1,46,28,21,21
+    LTEXT           "4",IDC_STATIC,136,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN4,127,28,21,21
+    LTEXT           "5",IDC_STATIC,165,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN5,154,28,21,21
+    LTEXT           "6",IDC_STATIC,191,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN6,181,28,21,21
+    LTEXT           "7",IDC_STATIC,218,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN7,208,28,21,21
+    LTEXT           "8",IDC_STATIC,28,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN8,19,60,21,21
+    LTEXT           "10",IDC_STATIC,84,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN10,74,60,21,21
+    LTEXT           "11",IDC_STATIC,110,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN11,100,60,21,21
+    LTEXT           "9",IDC_STATIC,56,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN9,46,60,21,21
+    LTEXT           "12",IDC_STATIC,137,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN12,128,60,21,21
+    LTEXT           "13",IDC_STATIC,166,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN13,154,60,21,21
+    LTEXT           "14",IDC_STATIC,192,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN14,182,60,21,21
+    LTEXT           "15",IDC_STATIC,218,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN15,208,60,21,21
+    GROUPBOX        "通用输出口（0-15）",IDC_STATIC,8,97,249,81
+    LTEXT           "0",IDC_STATIC,27,108,8,8
+    LTEXT           "2",IDC_STATIC,83,108,8,8
+    LTEXT           "3",IDC_STATIC,109,108,8,8
+    LTEXT           "1",IDC_STATIC,55,108,8,8
+    LTEXT           "4",IDC_STATIC,135,108,8,8
+    LTEXT           "5",IDC_STATIC,164,108,8,8
+    LTEXT           "6",IDC_STATIC,190,108,8,8
+    LTEXT           "7",IDC_STATIC,217,108,8,8
+    LTEXT           "8",IDC_STATIC,27,140,8,8
+    LTEXT           "10",IDC_STATIC,83,140,8,8
+    LTEXT           "11",IDC_STATIC,109,140,8,8
+    LTEXT           "9",IDC_STATIC,55,140,8,8
+    LTEXT           "12",IDC_STATIC,136,140,8,8
+    LTEXT           "13",IDC_STATIC,165,140,8,8
+    LTEXT           "14",IDC_STATIC,191,140,8,8
+    LTEXT           "15",IDC_STATIC,217,140,8,8
+    PUSHBUTTON      "",IDC_BUTTON_OUT0,19,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT1,46,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT2,73,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT3,100,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT4,127,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT5,154,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT6,181,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT7,208,117,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT8,19,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT9,46,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT10,73,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT11,100,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT12,127,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT13,154,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT14,181,151,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT15,208,151,21,21,BS_ICON
+    GROUPBOX        "通用输入口（16-31）",IDC_STATIC,263,9,249,81
+    LTEXT           "16",IDC_STATIC,282,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN16,273,28,21,21
+    LTEXT           "18",IDC_STATIC,338,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN18,327,28,21,21
+    LTEXT           "19",IDC_STATIC,364,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN19,354,28,21,21
+    LTEXT           "17",IDC_STATIC,310,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN17,300,28,21,21
+    LTEXT           "20",IDC_STATIC,390,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN20,381,28,21,21
+    LTEXT           "21",IDC_STATIC,419,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN21,408,28,21,21
+    LTEXT           "22",IDC_STATIC,445,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN22,435,28,21,21
+    LTEXT           "23",IDC_STATIC,472,20,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN23,462,28,21,21
+    LTEXT           "24",IDC_STATIC,282,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN24,273,60,21,21
+    LTEXT           "26",IDC_STATIC,338,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN26,328,60,21,21
+    LTEXT           "27",IDC_STATIC,364,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN27,354,60,21,21
+    LTEXT           "25",IDC_STATIC,310,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN25,300,60,21,21
+    LTEXT           "28",IDC_STATIC,391,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN28,382,60,21,21
+    LTEXT           "29",IDC_STATIC,420,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN29,408,60,21,21
+    LTEXT           "30",IDC_STATIC,446,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN30,436,60,21,21
+    LTEXT           "31",IDC_STATIC,472,52,8,8
+    ICON            IDI_ICON_RED,IDC_STATIC_IN31,462,60,21,21
+    GROUPBOX        "通用输出口（16-31）",IDC_STATIC,263,98,249,81
+    LTEXT           "16",IDC_STATIC,283,108,8,8
+    LTEXT           "18",IDC_STATIC,339,108,8,8
+    LTEXT           "19",IDC_STATIC,365,108,8,8
+    LTEXT           "17",IDC_STATIC,311,108,8,8
+    LTEXT           "20",IDC_STATIC,391,108,8,8
+    LTEXT           "21",IDC_STATIC,419,108,8,8
+    LTEXT           "22",IDC_STATIC,445,108,8,8
+    LTEXT           "23",IDC_STATIC,473,108,8,8
+    LTEXT           "24",IDC_STATIC,283,140,8,8
+    LTEXT           "26",IDC_STATIC,339,140,8,8
+    LTEXT           "27",IDC_STATIC,365,140,8,8
+    LTEXT           "25",IDC_STATIC,311,140,8,8
+    LTEXT           "28",IDC_STATIC,391,140,8,8
+    LTEXT           "29",IDC_STATIC,421,140,8,8
+    LTEXT           "30",IDC_STATIC,447,140,8,8
+    LTEXT           "31",IDC_STATIC,473,140,8,8
+    PUSHBUTTON      "",IDC_BUTTON_OUT16,275,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT17,301,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT18,329,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT19,355,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT20,383,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT21,409,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT22,437,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT23,463,116,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT24,275,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT25,301,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT26,329,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT27,355,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT28,383,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT29,409,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT30,437,150,21,21,BS_ICON
+    PUSHBUTTON      "",IDC_BUTTON_OUT31,463,150,21,21,BS_ICON
+END
+
+IDD_DIALOG1 DIALOG  0, 0, 187, 96
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,7,50,14
+    PUSHBUTTON      "取消",IDCANCEL,130,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "DMCd1 Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "DMCd1"
+            VALUE "LegalCopyright", "版权所有 (C) 2007"
+            VALUE "OriginalFilename", "DMCd1.EXE"
+            VALUE "ProductName", "DMCd1 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DMCd1_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 461
+        BOTTOMMARGIN, 187
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 89
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\DMCd1.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
