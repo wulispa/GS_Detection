@@ -24,6 +24,7 @@
     <Keyword>MFCProj</Keyword>
     <RootNamespace>BottleDetMain</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>REGITBottleDetMain</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -44,7 +45,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <UseOfMfc>Static</UseOfMfc>
   </PropertyGroup>
@@ -195,6 +196,7 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="admin_managementDlg.h" />
     <ClInclude Include="AlgorithmBase.h" />
     <ClInclude Include="AlgorithmIdentify.h" />
     <ClInclude Include="BadData.h" />
@@ -207,7 +209,7 @@
     <ClInclude Include="CameraHK1.h" />
     <ClInclude Include="CameraParamDlg.h" />
     <ClInclude Include="ChangeClassDlg.h" />
-    <ClInclude Include="ChangePassWordDlg.h" />
+    <ClInclude Include="ChangePasswordDlg.h" />
     <ClInclude Include="ChartAxis.h" />
     <ClInclude Include="ChartAxisLabel.h" />
     <ClInclude Include="ChartBalloonLabel.h" />
@@ -268,6 +270,7 @@
     <ClInclude Include="publicspace.h" />
     <ClInclude Include="putText.h" />
     <ClInclude Include="putTextZh.h" />
+    <ClInclude Include="RegistDlg.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="ScreenRect.h" />
     <ClInclude Include="SQLInterface.h" />
@@ -281,6 +284,7 @@
     <ClInclude Include="utils\utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="admin_managementDlg.cpp" />
     <ClCompile Include="AlgorithmBase.cpp" />
     <ClCompile Include="AlgorithmIdentify.cpp" />
     <ClCompile Include="BadData.cpp" />
@@ -293,7 +297,7 @@
     <ClCompile Include="CameraHK1.cpp" />
     <ClCompile Include="CameraParamDlg.cpp" />
     <ClCompile Include="ChangeClassDlg.cpp" />
-    <ClCompile Include="ChangePassWordDlg.cpp" />
+    <ClCompile Include="ChangePasswordDlg.cpp" />
     <ClCompile Include="ChartAxis.cpp" />
     <ClCompile Include="ChartAxisLabel.cpp" />
     <ClCompile Include="ChartBarSerie.cpp" />
@@ -346,6 +350,7 @@
     </ClCompile>
     <ClCompile Include="putText.cpp" />
     <ClCompile Include="putTextZh.cpp" />
+    <ClCompile Include="RegistDlg.cpp" />
     <ClCompile Include="ScreenRect.cpp" />
     <ClCompile Include="SQLInterface.cpp" />
     <ClCompile Include="StateDlg.cpp" />

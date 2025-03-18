@@ -992,3 +992,11 @@ UpNumber: (17)271100(10)TR241245
 DownNumber: (01)14987605001270
 UpResult: 上层条码比对成功！
 DownResult: 下层条码比对成功！
+Error: HALCON error #1501: Wrong number of values of object parameter 1
+Deadline: 0
+UpCode: 0
+DownCode: 0
+UpNumber: 0
+DownNumber: 0
+UpResult: 图像异常！
+DownResult: 图像异常！

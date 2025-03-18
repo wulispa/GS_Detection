@@ -2,6 +2,10 @@
 // Microsoft Visual C++ 生成的包含文件。
 // 供 BottleDetMain.rc 使用
 //
+#define ID_Confirm                      2
+#define ID_Activate                     3
+#define ID_show                         4
+#define ID_Back                         5
 #define IDM_ABOUTBOX                    0x0010
 #define IDD_ABOUTBOX                    100
 #define IDS_ABOUTBOX                    101
@@ -41,6 +45,9 @@
 #define IDB_BITMAP1                     174
 #define IDB_CHANGECLASS_OFF             174
 #define IDD_MOLD_PARAM_DIALOG           175
+#define IDD_REGIST_DLG                  177
+#define IDD_Change_DIALOG               179
+#define IDD_admin_management            181
 #define IDC_BUT_AUTO_DET                1000
 #define IDC_BUT_LOCK                    1001
 #define IDC_BUT_DET_PARAM               1002
@@ -49,6 +56,7 @@
 #define IDC_BUT_SYSTEM_PARAM            1005
 #define IDC_BUT_STAT                    1006
 #define IDC_BUT_EXIT                    1007
+#define IDC_BUT_User_Management         1008
 #define IDC_BUT_CLEAR                   1009
 #define IDC_LIST_BAD_BOTTLE             1010
 #define IDC_IMAGE_WIN                   1011
@@ -140,6 +148,7 @@
 #define IDC_EDIT_NAME                   1094
 #define IDC_EDIT_USERNAME               1094
 #define IDC_EDIT_PASSWORD               1095
+#define IDC_Login_PASSWORD              1095
 #define IDC_LOGIN                       1096
 #define IDC_BTN_LOGIN                   1096
 #define IDC_EDIT_PASSWORD2              1097
@@ -156,6 +165,7 @@
 #define IDC_EDIT_LEFT_VAL               1099
 #define IDC_EDIT_PRODUCT_BATCH          1099
 #define IDC_CHECK_REIGSTSHOW            1099
+#define IDC_password                    1099
 #define IDC_BUTTON1                     1100
 #define IDC_CHECK_TRIGER                1100
 #define IDC_BUT_CHANGE_CLASS_DET        1100
@@ -163,25 +173,31 @@
 #define IDC_BUT_INQUIRE                 1100
 #define IDC_BUT_MOLD1                   1100
 #define IDC_BUT_PINGDI                  1100
+#define IDC_OK                          1100
+#define IDC_password2                   1100
 #define IDC_TIP                         1101
 #define IDC_BOTTLE_DET_CLASS            1101
 #define IDC_TIPP                        1101
 #define IDC_BUT_MOLD2                   1101
 #define IDC_REGIST_PASSWORD             1101
+#define IDC_BTN_LOGIN3                  1101
 #define IDC_BOTTLE_DET_CLASS_BOX        1102
 #define IDC_BUT_MOLD3                   1102
 #define IDC_CONFIRM_PASSWORD            1102
+#define IDC_BTN_LOGIN4                  1102
+#define IDC_BTN_Changepassword          1102
 #define IDC_MFCCOLORBUTTON1             1103
 #define IDC_BUT_MOLD4                   1103
 #define IDC_EDIT_IDCODE                 1103
 #define IDC_STAT_PAINT_CONTROL          1104
 #define IDC_BUT_MOLD5                   1104
-#define IDC_BTN_REIGST                  1104
-#define IDC_BTN_REGIST                  1104
+#define IDC_BTN_Back                    1104
 #define IDOK_PASSWORLD                  1105
 #define IDC_BUT_MOLD6                   1105
+#define IDC_Username                    1105
 #define IDCANCEL_PASSWORD               1106
 #define IDC_BUT_MOLD7                   1106
+#define IDC_BTN_Regist                  1106
 #define IDC_STATIC_COM_PASS             1107
 #define IDC_BUT_MOLD8                   1107
 #define IDC_STATIC_USERNAME             1108
@@ -376,14 +392,26 @@
 #define IDC_TEST_DOWN_READ_MOLD         1261
 #define IDC_TEST_UP_RESULT              1262
 #define IDC_TEST_DOWN_RESULT            1263
+#define IDC_Change_PASSWORD             1263
+#define IDC_Used_PASSWORD               1264
+#define IDC_STATIC_User                 1265
+#define IDC_STATIC_UsedPassword         1266
+#define IDC_STATIC_NewPassword          1267
+#define IDC_STATIC_NewPassword_Confirm  1268
+#define IDC_Regist_SHOW                 1268
+#define IDC_Change_PASSWORD_Confirm     1269
+#define IDC_STATIC_password             1273
+#define ID_Lock                         1274
+#define IDC_STATIC_password2            1275
+#define IDC_LIST                        1278
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        177
+#define _APS_NEXT_RESOURCE_VALUE        183
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1259
+#define _APS_NEXT_CONTROL_VALUE         1279
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

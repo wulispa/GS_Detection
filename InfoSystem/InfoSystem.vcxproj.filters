@@ -48,6 +48,9 @@
     <ClInclude Include="SeekBNumberDlg.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="mysql.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="InfoSystem.cpp">
