@@ -456,11 +456,11 @@ void CBottleDetMainDlg::InitControlColor(int ID, COLORREF rgb)
 {
 	CDC* pDC = m_picture.GetDC();
 	CRect mrect;
-	GetDlgItem(ID)->GetClientRect(&mrect);
-	CBrush BrushBack;
-	BrushBack.CreateSolidBrush(rgb);
+	GetDlgItem(ID)->GetClientRect(&mrect);//获取控件大小
+	CBrush BrushBack;//画刷
+	BrushBack.CreateSolidBrush(rgb);//
 	FillRect(pDC->GetSafeHdc(), &mrect, BrushBack);
-	DeleteObject(BrushBack);
+	DeleteObject(BrushBack);//释放画刷
 	//DeleteObject(GetDlgItem(ID)->GetDC()->GetSafeHdc());
 	ReleaseDC(pDC);
 }
@@ -503,6 +503,7 @@ BEGIN_MESSAGE_MAP(CBottleDetMainDlg, CDialogEx)
 	ON_WM_WINDOWPOSCHANGING()
 	ON_BN_CLICKED(IDC_BUTTON4, &CBottleDetMainDlg::OnBnClickedButton4)
 	ON_BN_CLICKED(IDC_BUTTON3, &CBottleDetMainDlg::OnBnClickedButton3)
+	ON_BN_CLICKED(IDC_BUT_User_Management, &CBottleDetMainDlg::OnBnClickedButUserManagement)
 END_MESSAGE_MAP()
 
 
@@ -1532,7 +1533,9 @@ void CBottleDetMainDlg::OnBnClickedButAutoDet()
 
 			RunState = !RunState;
 		}
-		CloseHandle(hThreadTip);
+        if (hThreadTip != NULL) {
+            CloseHandle(hThreadTip);
+        }
 	}
 }
 
@@ -1543,8 +1546,12 @@ void CBottleDetMainDlg::OnBnClickedButLock()
 		
 		LoginDlg Dlg(this,m_pData);  // 弹出登录对话框
 		Dlg.DoModal();
+
 		if (PassLogin) {
+
 			GetDlgItem(IDC_BUT_CHANGE_CLASS)->EnableWindow(TRUE);
+			
+
 			GetDlgItem(IDC_BUT_AUTO_DET)->EnableWindow(TRUE);
 			GetDlgItem(IDC_BUT_EXIT)->EnableWindow(TRUE);
 			SetDlgItemText(IDC_BUT_LOCK, TEXT("锁定"));
@@ -2268,4 +2275,11 @@ void CBottleDetMainDlg::OnBnClickedButton3()
 	GetDlgItemText(IDC_EDIT_PRODUCT_BATCH, ProductData);
 	m_pData->SetProductDate(ProductData);
 
+}
+
+void CBottleDetMainDlg::OnBnClickedButUserManagement()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	admin_managementDlg dlg;//修改密码对话框
+	dlg.DoModal();
 }

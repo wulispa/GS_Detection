@@ -22,12 +22,12 @@
     <Filter Include="源文件\头文件\utils">
       <UniqueIdentifier>{3e2d2ea2-4f80-4e53-bc95-c1b85a6b40c3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Login">
+      <UniqueIdentifier>{24862f7c-29d8-44ac-83f6-a52d52aafa86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BottleDetMain.h">
-      <Filter>源文件\头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="BottleDetMainDlg.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
     <ClInclude Include="framework.h">
@@ -91,9 +91,6 @@
       <Filter>源文件\头文件</Filter>
     </ClInclude>
     <ClInclude Include="MyXml.h">
-      <Filter>源文件\头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="LoginDlg.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
     <ClInclude Include="OutPutEIO.h">
@@ -210,9 +207,6 @@
     <ClInclude Include="PointsOrdering.h">
       <Filter>源文件\头文件\ChartCtrlH</Filter>
     </ClInclude>
-    <ClInclude Include="ChangePassWordDlg.h">
-      <Filter>源文件\头文件</Filter>
-    </ClInclude>
     <ClInclude Include="StateDlg.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
@@ -270,18 +264,30 @@
     <ClInclude Include="DateInfo.h">
       <Filter>源文件\头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SQLInterface.h">
-      <Filter>源文件\头文件</Filter>
-    </ClInclude>
     <ClInclude Include="tinyxml2.h">
       <Filter>源文件\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="BottleDetMainDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="ChangePasswordDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="admin_managementDlg.h">
+      <Filter>Login</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLInterface.h">
+      <Filter>Login</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BottleDetMain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="BottleDetMainDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
@@ -335,9 +341,6 @@
     <ClCompile Include="MyXml.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="LoginDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="OutPutEIO.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -351,9 +354,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="BeginDlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="ChangePassWordDlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="ChartAxis.cpp">
@@ -473,11 +473,26 @@
     <ClCompile Include="DateInfo.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SQLInterface.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="tinyxml2.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLInterface.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistDlg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="BottleDetMainDlg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePasswordDlg.cpp">
+      <Filter>Login</Filter>
+    </ClCompile>
+    <ClCompile Include="admin_managementDlg.cpp">
+      <Filter>Login</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

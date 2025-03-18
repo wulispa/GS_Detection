@@ -14,8 +14,8 @@
 #include "CheckParamDlg.h"
 #include "CameraParamDlg.h"
 #include "ChangeClassDlg.h"
+#include "admin_managementDlg.h"
 #include "DataManager.h"
-#include "publicspace.h"
 #include "Detection.h"
 #include "LoginDlg.h"
 #include <string>
@@ -366,4 +366,5 @@ public:
 
 	afx_msg void OnBnClickedButton4();
 	afx_msg void OnBnClickedButton3();
+	afx_msg void OnBnClickedButUserManagement();
 };

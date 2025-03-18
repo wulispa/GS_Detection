@@ -16,10 +16,10 @@
   <ProjectParam>
     <Bottle22>
       <AlgorithmParam>
-        <PersonUse>管理员</PersonUse>
+        <PersonUse>666</PersonUse>
         <PhotoelectricDistance>2100</PhotoelectricDistance>
         <TriggerDistance>4000</TriggerDistance>
-        <ProductData>TR240520</ProductData>
+        <ProductData></ProductData>
         <ModelPath></ModelPath>
         <ProfilePath></ProfilePath>
         <DetThread>100.00</DetThread>
